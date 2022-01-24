@@ -1,6 +1,7 @@
 asgiref
 Django
 django-cors-headers
+dj-database-url
 django-heroku
 djangorestframework
 pytz
