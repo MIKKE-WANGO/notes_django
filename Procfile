@@ -1,1 +1,2 @@
-web: gunicorn notes_django.wsgi --log-file
+release: python manage.py migrate
+web: gunicorn notes_django.wsgi 
